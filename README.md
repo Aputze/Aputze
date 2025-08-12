@@ -4,7 +4,7 @@
 
 ## 🚀 **About Me**
 
-I'm a passionate technologist with extensive experience in ERP systems and business process automation, now diving deep into the exciting world of AI agents and autonomous systems. I believe in the transformative power of AI to revolutionize how we work and solve complex problems.
+I'm a passionate technologist with extensive experience in ERP implementation and automation, including several years in the healthcare industry and additional years in the aerospace products sector. Now diving deep into the exciting world of AI agents and autonomous systems, I believe in the transformative power of AI to revolutionize how we work and solve complex problems.
 
 ## 🎯 **My Mission**
 
