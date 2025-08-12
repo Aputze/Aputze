@@ -70,6 +70,7 @@ I'm actively working through the **Complete Agentic AI Engineering Course** - a 
 
 ## 🎓 **Education & Background**
 
+- **B.Sc Information Systems Engineering** - Formal education in systems engineering and information technology
 - **ERP Systems Specialist** with years of experience in enterprise software
 - **Business Process Expert** specializing in automation and optimization
 - **Continuous Learner** always exploring cutting-edge technologies
