@@ -1,145 +1,114 @@
-# 👋 Hi there, I'm Sergei Lerner!
+# Sergei Lerner
 
-> **AI Integration Engineer | ERP & Automation Expert | Building Intelligent Systems**
+**AI Integration Engineer | Enterprise Systems Architect | Automation Specialist**
 
-## 🚀 About Me
+---
 
-I'm an **AI Integration Engineer** at Apützē Labs, specializing in connecting enterprise systems with AI-powered automation. With over 13 years of experience in ERP implementation and system integration, I've transitioned from classic ERP work to building cutting-edge AI agents and autonomous workflows.
+## Professional Summary
 
-My expertise spans Priority ERP, Microsoft Dynamics 365, AI frameworks, and enterprise automation. I enjoy turning operational bottlenecks into intelligent, automated systems that drive real business value.
+Experienced AI Integration Engineer with 13+ years of expertise in ERP systems, enterprise automation, and AI agent development. Currently leading AI-driven integration projects at Apützē Labs, specializing in connecting enterprise systems with LLM-powered automation frameworks. Proven track record in system architecture, data migration, and building production-ready AI agent systems.
 
-## 💼 Current Role
+## Current Position
 
-**AI Integration Engineer** at [Apützē Labs](https://github.com/Aputze) | July 2025 - Present
+**AI Integration Engineer** | Apützē Labs | July 2025 - Present
 
-Building AI-driven solutions that connect enterprise systems, operational workflows, and LLM-based intelligence.
+Leading development of AI agent systems and enterprise integrations, with focus on:
+- Multi-agent orchestration for structured data processing
+- Custom MCP integrations for ERP-LLM connectivity
+- API-driven automation pipelines
+- Production deployment of AI-powered workflows
 
-### Key Projects
-
-- **MedOp** - AI agent-based system for structured medical evaluations, combining LLM reasoning, RAG, FastAPI backend, and orchestrated workflows
-- **Priority MCP** - Custom Model Context Protocol integration for Priority ERP, enabling LLMs to interact with live ERP data, execute queries, and automate processes
-- Multi-agent workflows for real-time decision making and context-aware automations
-- API-driven bridges between LLM services, databases, ERP platforms, and automation pipelines
-
-## 🎯 Core Expertise
+## Core Expertise
 
 ### AI & Machine Learning
-- **AI Agents**: CrewAI, LangGraph, AutoGen, LangChain
-- **LLMs**: OpenAI GPT, Anthropic Claude, Local Models (Ollama)
-- **Frameworks**: TensorFlow, Python, FastAPI, Docker
-- **APIs**: OpenAI, Anthropic, Google Cloud, Azure
+- **Agent Frameworks**: CrewAI, LangGraph, AutoGen, LangChain
+- **LLM Integration**: OpenAI GPT, Anthropic Claude, Local Models (Ollama)
+- **ML Frameworks**: TensorFlow, Python-based ML pipelines
+- **Architecture**: Multi-agent systems, RAG implementations, orchestration patterns
 
-### Enterprise Systems & Integration
-- **ERP Systems**: Priority ERP (13+ years), Microsoft Dynamics 365, SAP, Oracle
-- **Integration Engineering**: APIs, SDK workflows, Web Services, Middleware
-- **Data Migration**: Priority → D365 migration, ETL pipelines, data modeling
-- **Automation**: RPA, workflow automation, business process management
+### Enterprise Systems
+- **ERP Platforms**: Priority ERP (13+ years), Microsoft Dynamics 365, SAP, Oracle
+- **Integration**: REST APIs, SDK workflows, Web Services, Middleware solutions
+- **Data Migration**: Complex ERP-to-ERP migrations, ETL pipelines, data modeling
+- **Automation**: RPA, workflow automation, business process optimization
 
-### Development & Infrastructure
+### Technical Stack
 - **Languages**: Python, JavaScript, SQL, PowerShell
 - **Backend**: FastAPI, REST APIs, Priority Web API, Priority SDK
-- **DevOps**: Docker, Docker Compose, cloud deployment
-- **Tools**: Git, GitHub, VS Code, Jupyter Lab
+- **Infrastructure**: Docker, containerization, cloud deployment
+- **Tools**: Git, CI/CD, VS Code, Jupyter
 
-## 🏢 Professional Experience
+## Key Projects
 
-### Apützē Labs | AI Integration Engineer
-**July 2025 - Present** | Tel Aviv District, Israel
+### MedOp
+AI agent-based system for structured medical evaluations combining LLM reasoning, RAG, FastAPI backend, and orchestrated workflows. Production-ready deployment with Docker containerization.
 
-- Designed and developed AI agent systems for structured medical evaluations
-- Built custom MCP integration for Priority ERP enabling LLM-ERP interaction
-- Engineered multi-agent workflows for real-time decision making
-- Developed API-driven bridges between LLM services and enterprise systems
+### Priority MCP
+Custom Model Context Protocol integration enabling LLMs to interact with live Priority ERP data, execute queries, and automate business processes through natural language interfaces.
 
-### Lidorr Elements | ERP & System Integration Expert
-**June 2021 - July 2025** (4 years 2 months)
+### Enterprise Migrations
+Led Priority → Dynamics 365 migration including data model design, mapping strategies, validation frameworks, and end-to-end troubleshooting.
 
-- Drove core system architecture, taking Priority from legacy to fully integrated, automated environment
-- Executed Priority → D365 migration: data models, mappings, validations, E2E troubleshooting
-- Engineered pricing logic, customer history models, and operational automations
+## Professional Experience
+
+**AI Integration Engineer** | Apützē Labs | July 2025 - Present
+
+**ERP & System Integration Expert** | Lidorr Elements | June 2021 - July 2025
+- Architected core system infrastructure, modernizing Priority from legacy to fully integrated environment
+- Executed complete Priority → D365 migration with data models, mappings, and validation frameworks
+- Engineered pricing logic, customer history models, and operational automation systems
 - Replaced manual processes with scripted pipelines, triggers, and API services
 - Built and maintained complex Priority integrations, APIs, and SDK-based workflows
 
-### Previous Roles
-- **Tadiad** | Enterprise Resources Planning Programmer (Aug 2020 - Jan 2021)
-- **Tulip Information Systems** | ERP Project Manager (Sep 2016 - Jun 2019)
-- **E&M Computing** | ERP Programmer (Sep 2014 - Feb 2016)
-- **Blades Technology LTD** | ERP Project Manager (Feb 2012 - Mar 2014)
-- **MedaTech** | ERP Programmer (Jul 2011 - Jan 2012)
+**Previous Roles**
+- Enterprise Resources Planning Programmer | Tadiad (Aug 2020 - Jan 2021)
+- ERP Project Manager | Tulip Information Systems (Sep 2016 - Jun 2019)
+- ERP Programmer | E&M Computing (Sep 2014 - Feb 2016)
+- ERP Project Manager | Blades Technology LTD (Feb 2012 - Mar 2014)
+- ERP Programmer | MedaTech (Jul 2011 - Jan 2012)
 
-## 🎓 Education & Certifications
+## Education & Certifications
 
-### Education
-- **B.Sc Information Systems Engineering** | Ort Braude College (2005 - 2010)
+**B.Sc Information Systems Engineering** | Ort Braude College (2005 - 2010)
 
-### Certifications
+**Professional Certifications**
 - ChatGPT Prompt Engineering for Developers
 - Introduction to IoT
 - Python for Data Science and Machine Learning Bootcamp
 - LangChain Crash Course: Build OpenAI LLM powered Apps
 - The Complete SQL Bootcamp: Go from Zero to Hero
 
-## 🛠️ Technical Skills
+## Technical Skills
 
-### Top Skills
+**Primary Expertise**
 - Strategic Data Analysis
-- Machine Learning
-- TensorFlow
+- Machine Learning & TensorFlow
 - ERP Systems Integration
-- API Development
-- Process Automation
+- API Development & Architecture
+- Process Automation & Optimization
 - AI Agent Frameworks
 
-### Languages
-- **Russian** (Native or Bilingual)
-- **English** (Full Professional)
-- **Hebrew** (Native or Bilingual)
+**Languages**
+- Russian (Native)
+- English (Professional)
+- Hebrew (Native)
 
-## 🔬 Notable Projects
+## Current Focus
 
-### Enterprise & AI Integration
-- **MedOp** - Medical opinion generation system with AI agents
-- **Priority MCP** - LLM-ERP integration framework
-- **D365 Migration** - Complete Priority to Dynamics 365 migration
-- **Automation Frameworks** - Multi-agent orchestration systems
+- Production-ready AI agent frameworks
+- Enterprise AI integration patterns
+- Multi-agent workflow orchestration
+- Model Context Protocol (MCP) development
+- LLM-ERP connectivity solutions
 
-### Personal Projects
-- **Smart Home Automation** - Python-based presence detection with SmartThings and Sonos
-- **IoT Controllers** - Intel NUC LED controller and device management
-- **Docker Deployments** - Containerized automation solutions
+## Contact
 
-## 📚 Current Focus
-
-- **AI Agents & Autonomous Systems** - Building production-ready agent frameworks
-- **Enterprise AI Integration** - Connecting LLMs with business systems
-- **Multi-Agent Workflows** - Orchestrating complex AI-driven processes
-- **MCP Development** - Model Context Protocol integrations
-
-## 💭 Philosophy
-
-> _"The future of work isn't about replacing humans with AI, but about creating AI agents that work alongside humans to amplify our capabilities and solve problems we couldn't tackle alone."_
-
-I believe in turning complex operational environments into connected, predictable, and intelligent ecosystems.
-
-## 📫 Let's Connect
-
-- 📧 **Email**: sergei.lerner@yahoo.com
-- 💼 **LinkedIn**: [sergei-lerner](https://www.linkedin.com/in/sergei-lerner)
-- 🌐 **Portfolio**: [aputze.github.io](https://aputze.github.io)
-- 🐙 **GitHub**: [@Aputze](https://github.com/Aputze)
-- 📍 **Location**: Ramat Gan, Israel
-
-## 🎯 Open To
-
-- AI-driven automation projects
-- ERP integration and modernization initiatives
-- Technical leadership roles
-- Enterprise system architecture
-- AI agent development
-- Automation consulting
+- **Email**: sergei.lerner@yahoo.com
+- **LinkedIn**: [sergei-lerner](https://www.linkedin.com/in/sergei-lerner)
+- **Portfolio**: [aputze.github.io](https://aputze.github.io)
+- **GitHub**: [@Aputze](https://github.com/Aputze)
+- **Location**: Ramat Gan, Israel
 
 ---
 
-**🔍 Looking for collaborators on AI agent projects, automation solutions, or enterprise integration challenges? Let's connect!**
-
-_Currently accepting opportunities for AI agent development, automation consulting, and innovative tech projects._
+**Open to**: Technical leadership roles, AI-driven automation projects, enterprise system architecture, and innovative integration challenges.
