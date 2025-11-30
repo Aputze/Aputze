@@ -1,87 +1,145 @@
 # 👋 Hi there, I'm Sergei Lerner!
 
-> **Tech-savvy ERP and automation expert pivoting into AI, agents, and next-gen workflows**
+> **AI Integration Engineer | ERP & Automation Expert | Building Intelligent Systems**
 
-## 🚀 **About Me**
+## 🚀 About Me
 
-I'm a passionate technologist with extensive experience in ERP implementation and automation, including several years in the healthcare system and additional years in the aerospace products sector. Now diving deep into the exciting world of AI agents and autonomous systems, I believe in the transformative power of AI to revolutionize how we work and solve complex problems.
+I'm an **AI Integration Engineer** at Apützē Labs, specializing in connecting enterprise systems with AI-powered automation. With over 13 years of experience in ERP implementation and system integration, I've transitioned from classic ERP work to building cutting-edge AI agents and autonomous workflows.
 
-## 🎯 **My Mission**
+My expertise spans Priority ERP, Microsoft Dynamics 365, AI frameworks, and enterprise automation. I enjoy turning operational bottlenecks into intelligent, automated systems that drive real business value.
 
-To master autonomous agent frameworks and build real-world AI automations that integrate seamlessly with IoT, Smart Home, and enterprise systems.
+## 💼 Current Role
 
-## 🛠️ **Technical Skills**
+**AI Integration Engineer** at [Apützē Labs](https://github.com/Aputze) | July 2025 - Present
 
-### **AI & Machine Learning**
+Building AI-driven solutions that connect enterprise systems, operational workflows, and LLM-based intelligence.
+
+### Key Projects
+
+- **MedOp** - AI agent-based system for structured medical evaluations, combining LLM reasoning, RAG, FastAPI backend, and orchestrated workflows
+- **Priority MCP** - Custom Model Context Protocol integration for Priority ERP, enabling LLMs to interact with live ERP data, execute queries, and automate processes
+- Multi-agent workflows for real-time decision making and context-aware automations
+- API-driven bridges between LLM services, databases, ERP platforms, and automation pipelines
+
+## 🎯 Core Expertise
+
+### AI & Machine Learning
 - **AI Agents**: CrewAI, LangGraph, AutoGen, LangChain
 - **LLMs**: OpenAI GPT, Anthropic Claude, Local Models (Ollama)
-- **Frameworks**: Python, Jupyter Notebooks, Streamlit
+- **Frameworks**: TensorFlow, Python, FastAPI, Docker
 - **APIs**: OpenAI, Anthropic, Google Cloud, Azure
 
-### **Enterprise & Automation**
-- **ERP Systems**: SAP, Oracle, Microsoft Dynamics
-- **Process Automation**: RPA, Workflow Automation, Business Process Management
-- **Integration**: APIs, Web Services, Middleware Solutions
-- **Data**: SQL, ETL, Data Analysis, Business Intelligence
+### Enterprise Systems & Integration
+- **ERP Systems**: Priority ERP (13+ years), Microsoft Dynamics 365, SAP, Oracle
+- **Integration Engineering**: APIs, SDK workflows, Web Services, Middleware
+- **Data Migration**: Priority → D365 migration, ETL pipelines, data modeling
+- **Automation**: RPA, workflow automation, business process management
 
-### **Development & Tools**
+### Development & Infrastructure
 - **Languages**: Python, JavaScript, SQL, PowerShell
+- **Backend**: FastAPI, REST APIs, Priority Web API, Priority SDK
+- **DevOps**: Docker, Docker Compose, cloud deployment
 - **Tools**: Git, GitHub, VS Code, Jupyter Lab
-- **Cloud**: AWS, Azure, Google Cloud Platform
-- **IoT & Smart Home**: SmartThings, Home Assistant, MQTT
 
-## 📚 **Current Learning Journey**
+## 🏢 Professional Experience
 
-I'm actively working through the **Complete Agentic AI Engineering Course** - a comprehensive 6-week program covering:
+### Apützē Labs | AI Integration Engineer
+**July 2025 - Present** | Tel Aviv District, Israel
 
-1. **Foundations** - Core concepts of agentic thinking and tools
-2. **OpenAI** - LLMs and APIs via OpenAI
-3. **CrewAI** - Multi-agent workflows and collaboration
-4. **LangGraph** - Structured, stateful agent architectures
-5. **AutoGen** - Microsoft's AutoGen framework
-6. **MCP** - Advanced planning and coordination logic
+- Designed and developed AI agent systems for structured medical evaluations
+- Built custom MCP integration for Priority ERP enabling LLM-ERP interaction
+- Engineered multi-agent workflows for real-time decision making
+- Developed API-driven bridges between LLM services and enterprise systems
 
-## 🔬 **My Projects & Experiments**
+### Lidorr Elements | ERP & System Integration Expert
+**June 2021 - July 2025** (4 years 2 months)
 
-### **AI Agents & Automation**
-- 🤖 **Multi-Agent Research Systems** - Deep research workflows with clarifying questions
-- 💬 **Intelligent Chatbots** - RAG-enhanced conversational AI
-- 🎵 **Sonos Control Project** - Smart home automation with AI
-- 💡 **Intel NUC LED Controller** - IoT device management
+- Drove core system architecture, taking Priority from legacy to fully integrated, automated environment
+- Executed Priority → D365 migration: data models, mappings, validations, E2E troubleshooting
+- Engineered pricing logic, customer history models, and operational automations
+- Replaced manual processes with scripted pipelines, triggers, and API services
+- Built and maintained complex Priority integrations, APIs, and SDK-based workflows
 
-### **Learning & Development**
-- 📖 **Interactive Notebooks** - Jupyter-based learning materials
-- 🧪 **Sandbox Projects** - Experimental AI agent configurations
-- 🔧 **Tool Integration** - MCP servers and custom tools
-- 📊 **Evaluation & Testing** - Performance analysis and optimization
+### Previous Roles
+- **Tadiad** | Enterprise Resources Planning Programmer (Aug 2020 - Jan 2021)
+- **Tulip Information Systems** | ERP Project Manager (Sep 2016 - Jun 2019)
+- **E&M Computing** | ERP Programmer (Sep 2014 - Feb 2016)
+- **Blades Technology LTD** | ERP Project Manager (Feb 2012 - Mar 2014)
+- **MedaTech** | ERP Programmer (Jul 2011 - Jan 2012)
 
-## 🌟 **What I'm Building Towards**
+## 🎓 Education & Certifications
 
-- **Autonomous Business Processes** - AI agents that handle complex workflows
-- **Smart Home Intelligence** - Integrated AI systems for home automation
-- **Enterprise AI Solutions** - Scalable agent frameworks for business use
-- **IoT-AI Integration** - Seamless connection between devices and AI agents
+### Education
+- **B.Sc Information Systems Engineering** | Ort Braude College (2005 - 2010)
 
-## 📫 **Let's Connect!**
+### Certifications
+- ChatGPT Prompt Engineering for Developers
+- Introduction to IoT
+- Python for Data Science and Machine Learning Bootcamp
+- LangChain Crash Course: Build OpenAI LLM powered Apps
+- The Complete SQL Bootcamp: Go from Zero to Hero
 
-- 📧 **Email**: [lernersergei@gmail.com](mailto:lernersergei@gmail.com)
-- 💼 **LinkedIn**: [Sergei Lerner](https://www.linkedin.com/in/sergei-lerner-b5757837/)
+## 🛠️ Technical Skills
+
+### Top Skills
+- Strategic Data Analysis
+- Machine Learning
+- TensorFlow
+- ERP Systems Integration
+- API Development
+- Process Automation
+- AI Agent Frameworks
+
+### Languages
+- **Russian** (Native or Bilingual)
+- **English** (Full Professional)
+- **Hebrew** (Native or Bilingual)
+
+## 🔬 Notable Projects
+
+### Enterprise & AI Integration
+- **MedOp** - Medical opinion generation system with AI agents
+- **Priority MCP** - LLM-ERP integration framework
+- **D365 Migration** - Complete Priority to Dynamics 365 migration
+- **Automation Frameworks** - Multi-agent orchestration systems
+
+### Personal Projects
+- **Smart Home Automation** - Python-based presence detection with SmartThings and Sonos
+- **IoT Controllers** - Intel NUC LED controller and device management
+- **Docker Deployments** - Containerized automation solutions
+
+## 📚 Current Focus
+
+- **AI Agents & Autonomous Systems** - Building production-ready agent frameworks
+- **Enterprise AI Integration** - Connecting LLMs with business systems
+- **Multi-Agent Workflows** - Orchestrating complex AI-driven processes
+- **MCP Development** - Model Context Protocol integrations
+
+## 💭 Philosophy
+
+> _"The future of work isn't about replacing humans with AI, but about creating AI agents that work alongside humans to amplify our capabilities and solve problems we couldn't tackle alone."_
+
+I believe in turning complex operational environments into connected, predictable, and intelligent ecosystems.
+
+## 📫 Let's Connect
+
+- 📧 **Email**: sergei.lerner@yahoo.com
+- 💼 **LinkedIn**: [sergei-lerner](https://www.linkedin.com/in/sergei-lerner)
+- 🌐 **Portfolio**: [aputze.github.io](https://aputze.github.io)
 - 🐙 **GitHub**: [@Aputze](https://github.com/Aputze)
+- 📍 **Location**: Ramat Gan, Israel
 
-## 🎓 **Education & Background**
+## 🎯 Open To
 
-- **B.Sc Information Systems Engineering** - Formal education in systems engineering and information technology
-- **ERP Systems Specialist** with years of experience in enterprise software
-- **Business Process Expert** specializing in automation and optimization
-- **Continuous Learner** always exploring cutting-edge technologies
-- **Problem Solver** focused on practical, real-world applications
-
-## 💭 **My Philosophy**
-
-> *"The future of work isn't about replacing humans with AI, but about creating AI agents that work alongside humans to amplify our capabilities and solve problems we couldn't tackle alone."*
+- AI-driven automation projects
+- ERP integration and modernization initiatives
+- Technical leadership roles
+- Enterprise system architecture
+- AI agent development
+- Automation consulting
 
 ---
 
-**🔍 Looking for collaborators on AI agent projects, automation solutions, or just want to discuss the future of AI? Let's connect!**
+**🔍 Looking for collaborators on AI agent projects, automation solutions, or enterprise integration challenges? Let's connect!**
 
-*Currently accepting opportunities for AI agent development, automation consulting, and innovative tech projects.*
+_Currently accepting opportunities for AI agent development, automation consulting, and innovative tech projects._
