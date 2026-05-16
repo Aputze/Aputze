@@ -21,8 +21,8 @@ User intent (natural language)
         │
         ▼
   Heuristic Layer          ← Pre-flight: which tool, which endpoint, which pattern?
-  (OData vs WebSDK,        ← Is this a known failure path? (KNOWN_ISSUES.md)
-   path selection,         ← Does a tested pattern exist? (TEST_CASES.md)
+  (OData vs WebSDK,        ← Is this a known failure path? 
+   path selection,         ← Does a tested pattern exist? 
    governance rules)
         │
         ▼
