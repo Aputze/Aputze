@@ -1,114 +1,93 @@
-# Sergei Lerner
+# Sergei Lerner - ERP & AI Integration Architect
 
-**AI Integration Engineer | Enterprise Systems Architect | Automation Specialist**
+One of the areas I've been focused on lately: building AI-native infrastructure on top of Priority ERP - an orchestration layer that understands ERP business logic, not just its API surface.
 
 ---
 
-## Professional Summary
+## What makes this different from "connecting an LLM to an ERP"
 
-Experienced AI Integration Engineer with 13+ years of expertise in ERP systems, enterprise automation, and AI agent development. Currently leading AI-driven integration projects at Apützē Labs, specializing in connecting enterprise systems with LLM-powered automation frameworks. Proven track record in system architecture, data migration, and building production-ready AI agent systems.
+Most ERP+AI integrations treat the system as a flat database. Priority is not a flat database - it's a system with deeply embedded business logic. Updating a field is not a write operation; it's understanding which process owns that field, what preconditions apply, and what the ERP expects to happen before and after.
 
-## Current Position
+The infrastructure I built reflects that:
 
-**AI Integration Engineer** | Apützē Labs | July 2025 - Present
+```
+User intent (natural language)
+        │
+        ▼
+  Knowledge Layer          ← What does Priority know about this domain?
+  (ERP ontology, entity    ← What are the lifecycle rules?
+   capabilities, routing   ← What can/can't be done via which path?
+   intelligence, CLAUDE.md)
+        │
+        ▼
+  Heuristic Layer          ← Pre-flight: which tool, which endpoint, which pattern?
+  (OData vs WebSDK,        ← Is this a known failure path? (KNOWN_ISSUES.md)
+   path selection,         ← Does a tested pattern exist? (TEST_CASES.md)
+   governance rules)
+        │
+        ▼
+  Operational Layer        ← Execution with business-logic awareness
+  (MCP Gateway:            ← Not "write field X" but "run the process that updates X"
+   OData for CRUD,
+   WebSDK for procedures,
+   form lifecycle, reports)
+        │
+        ▼
+  Priority ERP (live)
+```
 
-Leading development of AI agent systems and enterprise integrations, with focus on:
-- Multi-agent orchestration for structured data processing
-- Custom MCP integrations for ERP-LLM connectivity
-- API-driven automation pipelines
-- Production deployment of AI-powered workflows
+The agent that executes doesn't write to Priority. It understands Priority's business logic and acts accordingly.
 
-## Core Expertise
+---
 
-### AI & Machine Learning
-- **Agent Frameworks**: CrewAI, LangGraph, AutoGen, LangChain
-- **LLM Integration**: OpenAI GPT, Anthropic Claude, Local Models (Ollama)
-- **ML Frameworks**: TensorFlow, Python-based ML pipelines
-- **Architecture**: Multi-agent systems, RAG implementations, orchestration patterns
+## Projects
 
-### Enterprise Systems
-- **ERP Platforms**: Priority ERP (13+ years), Microsoft Dynamics 365, SAP, Oracle
-- **Integration**: REST APIs, SDK workflows, Web Services, Middleware solutions
-- **Data Migration**: Complex ERP-to-ERP migrations, ETL pipelines, data modeling
-- **Automation**: RPA, workflow automation, business process optimization
+### `aputze-priority-ai-lab`
+The lab where this architecture was built and validated. Developer Agent, dual MCP gateway, iterative learning log, 12 documented failure patterns with fixes.
+`Priority ERP` `MCP` `Claude` `Node.js` `Docker` `OData` `WebSDK`
 
-### Technical Stack
-- **Languages**: Python, JavaScript, SQL, PowerShell
-- **Backend**: FastAPI, REST APIs, Priority Web API, Priority SDK
-- **Infrastructure**: Docker, containerization, cloud deployment
-- **Tools**: Git, CI/CD, VS Code, Jupyter
+### Prime Spend Portal
+Procurement intelligence portal with AI-driven analysis and approval workflows, running against a live Priority instance.
+`FastAPI` `Claude` `OData` `WebSDK` `Docker`
 
-## Key Projects
+### `Priority-RAG`
+Hebrew-first semantic search over Priority community knowledge. Built to feed the Knowledge Layer above.
+`Python` `FAISS` `FastAPI` `LangChain`
 
 ### MedOp
-AI agent-based system for structured medical evaluations combining LLM reasoning, RAG, FastAPI backend, and orchestrated workflows. Production-ready deployment with Docker containerization.
+Voice-first medical documentation. Whisper transcription in Hebrew, English, and Russian - structured clinical reports out. FastAPI backend, React frontend, live on HuggingFace Spaces.
+`Python` `Whisper` `FastAPI` `React` `TypeScript` `Docker`
 
-### Priority MCP
-Custom Model Context Protocol integration enabling LLMs to interact with live Priority ERP data, execute queries, and automate business processes through natural language interfaces.
+### `mcp-gateway`
+Unified MCP routing layer - OData and WebSDK under one interface with routing intelligence built in.
+`Node.js` `MCP` `REST`
 
-### Enterprise Migrations
-Led Priority → Dynamics 365 migration including data model design, mapping strategies, validation frameworks, and end-to-end troubleshooting.
+### `aputze-smart-home`
+Home Assistant + Zigbee2MQTT + Docker + MCP servers, running on a local NUC. Six-plus years in production.
+`Home Assistant` `Zigbee2MQTT` `MQTT` `Docker` `Python`
 
-## Professional Experience
+---
 
-**AI Integration Engineer** | Apützē Labs | July 2025 - Present
+## Stack
 
-**ERP & System Integration Expert** | Lidorr Elements | June 2021 - July 2025
-- Architected core system infrastructure, modernizing Priority from legacy to fully integrated environment
-- Executed complete Priority → D365 migration with data models, mappings, and validation frameworks
-- Engineered pricing logic, customer history models, and operational automation systems
-- Replaced manual processes with scripted pipelines, triggers, and API services
-- Built and maintained complex Priority integrations, APIs, and SDK-based workflows
+```
+Orchestration    Claude · LangGraph · LangChain · Groq · DeepSeek
+Transcription    Whisper (custom: aputze/Whispr) - HE / EN / RU
+Vector search    FAISS
+Backend          FastAPI · Node.js · Python
+Frontend         React · TypeScript · Vite · Tailwind · Gradio
+ERP              Priority ERP · OData · WebSDK · DBI · MCP
+Infrastructure   Docker · Home Assistant · Zigbee2MQTT · MQTT
+                 NUC · Tailscale · Caddy · HuggingFace Spaces
+```
 
-**Previous Roles**
-- Enterprise Resources Planning Programmer | Tadiad (Aug 2020 - Jan 2021)
-- ERP Project Manager | Tulip Information Systems (Sep 2016 - Jun 2019)
-- ERP Programmer | E&M Computing (Sep 2014 - Feb 2016)
-- ERP Project Manager | Blades Technology LTD (Feb 2012 - Mar 2014)
-- ERP Programmer | MedaTech (Jul 2011 - Jan 2012)
-
-## Education & Certifications
-
-**B.Sc Information Systems Engineering** | Ort Braude College (2005 - 2010)
-
-**Professional Certifications**
-- ChatGPT Prompt Engineering for Developers
-- Introduction to IoT
-- Python for Data Science and Machine Learning Bootcamp
-- LangChain Crash Course: Build OpenAI LLM powered Apps
-- The Complete SQL Bootcamp: Go from Zero to Hero
-
-## Technical Skills
-
-**Primary Expertise**
-- Strategic Data Analysis
-- Machine Learning & TensorFlow
-- ERP Systems Integration
-- API Development & Architecture
-- Process Automation & Optimization
-- AI Agent Frameworks
-
-**Languages**
-- Russian (Native)
-- English (Professional)
-- Hebrew (Native)
-
-## Current Focus
-
-- Production-ready AI agent frameworks
-- Enterprise AI integration patterns
-- Multi-agent workflow orchestration
-- Model Context Protocol (MCP) development
-- LLM-ERP connectivity solutions
+---
 
 ## Contact
 
-- **Email**: sergei.lerner@yahoo.com
-- **LinkedIn**: [sergei-lerner](https://www.linkedin.com/in/sergei-lerner)
-- **Portfolio**: [aputze.github.io](https://aputze.github.io)
-- **GitHub**: [@Aputze](https://github.com/Aputze)
-- **Location**: Ramat Gan, Israel
+sergei.lerner@yahoo.com  
+[linkedin.com/in/sergei-lerner](https://linkedin.com/in/sergei-lerner)  
+[aputze.github.io](https://aputze.github.io)  
+Ramat Gan, Israel
 
----
-
-**Open to**: Technical leadership roles, AI-driven automation projects, enterprise system architecture, and innovative integration challenges.
+Open to consulting, collaboration, and the right full-time role.
