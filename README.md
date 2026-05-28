@@ -1,4 +1,4 @@
-# Sergei Lerner - ERP & AI Integration Architect
+# Sergei Lerner - AI PM & ERP Integration Specialist
 
 One of the areas I've been focused on lately: building AI-native infrastructure on top of Priority ERP. An orchestration layer that understands ERP business logic, not just its API surface.
 
