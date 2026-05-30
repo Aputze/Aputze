@@ -22,7 +22,7 @@ STATIC (from Official Docs):
   • Routing rules (OData vs WebSDK)
   • Business flows (Order -> Delivery -> Invoice -> GL)
   • Known failure patterns and resolution strategies
-  Files: CLAUDE.md
+  Files: ARCHITECTURE.md
   Load time: Startup (zero API calls)
 
 DYNAMIC (from $metadata):
