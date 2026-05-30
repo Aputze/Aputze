@@ -134,6 +134,34 @@ From CLAUDE.md §1:
 
 ---
 
+## Architecture: 4 Layers
+
+| Layer | What | File(s) | Purpose |
+|-------|------|---------|---------|
+| **1** | User Intent | Agent prompt | Natural language input |
+| **2** | KNOWLEDGE (HYBRID) | CLAUDE.md, knowledge.js, priority-client.js | Static rules plus runtime discovery |
+| **3** | HEURISTIC | reasoning.js, priority-client.js | Validation and routing |
+| **4** | OPERATIONAL | copilot.js, priority-client.js | Execution |
+
+
+---
+
+## Key Insights
+
+### Transactional vs Procedural
+Most integrations ask: "What field do I write?"
+
+The right question is: "What process needs to run?"
+
+Approving an order isn't updating a status field. It's running a procedure that posts GL entries, updates inventory, triggers workflows, validates business rules, and maintains an audit trail.
+
+### Why Layer 2 is HYBRID
+Most agents either hardcode everything or discover everything at runtime. That's a false choice.
+
+Our approach: hardcode what's stable (Priority's official domain rules) for speed. Discover what's variable (custom tables, live metadata) at runtime for flexibility. Best of both.
+
+---
+
 ## Projects
 
 ### `aputze-priority-ai-lab`
@@ -170,17 +198,6 @@ Home Assistant + Zigbee2MQTT + Docker + MCP servers, running on a local NUC. Six
 
 ---
 
-## Architecture: 4 Layers
-
-| Layer | What | File(s) | Purpose |
-|-------|------|---------|---------|
-| **1** | User Intent | Agent prompt | Natural language input |
-| **2** | KNOWLEDGE (HYBRID) | CLAUDE.md, knowledge.js, priority-client.js | Static rules plus runtime discovery |
-| **3** | HEURISTIC | reasoning.js, priority-client.js | Validation and routing |
-| **4** | OPERATIONAL | copilot.js, priority-client.js | Execution |
-
----
-
 ## Stack
 
 ```
@@ -192,24 +209,6 @@ Knowledge        HYBRID (Static rules + Runtime discovery)
 Infrastructure   Docker, Home Assistant, Zigbee2MQTT
                  NUC, Tailscale, Caddy, HuggingFace
 ```
-
----
-
-## Key Insights
-
-### Transactional vs Procedural
-Most integrations ask: "What field do I write?"
-
-The right question is: "What process needs to run?"
-
-Approving an order isn't updating a status field. It's running a procedure that posts GL entries, updates inventory, triggers workflows, validates business rules, and maintains an audit trail.
-
-### Why Layer 2 is HYBRID
-Most agents either hardcode everything or discover everything at runtime. That's a false choice.
-
-Our approach: hardcode what's stable (Priority's official domain rules) for speed. Discover what's variable (custom tables, live metadata) at runtime for flexibility. Best of both.
-
----
 
 ## Contact
 
